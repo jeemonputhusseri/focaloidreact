@@ -1,4 +1,4 @@
-Valid users list
+<b>Valid users list</b>
 
 [
    {
