@@ -1,5 +1,5 @@
-Valid users list
-
+<b>Valid users list</b>
+<pre>
 [
    {
       "username": "john@xyz.com",
@@ -17,7 +17,7 @@ Valid users list
       "fullname": "Jannie Doe"
    }
 ]
-
+</pre>
 
 # Getting Started with Create React App
 
