@@ -1,0 +1,158 @@
+.cardRoot{
+    width: 12.5%
+}
+@media only screen and (max-width: 1368px) {
+    html{
+        font-size: 12px;
+    }
+}
+.media{
+    width: 100%;
+    height: 300px;
+}
+.containerLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    min-height: 100vh;
+    max-width: 100vw;
+    min-width: 100vw;
+}
+
+
+.form-row > *{
+    display: block;
+}
+.form-row {
+    margin-bottom: 16px;
+}
+.form-row label, .label {
+    margin-bottom: 8px;
+    color: #666;
+}
+.error{
+    color:red;
+    font-size: 12px;
+    margin:8px 0 16px 0;
+}
+
+.containerLogin .form-row{
+    margin:8px 0 16px 0;
+}
+
+.containerLogin input{
+    height: 32px;
+    border-radius: 4px;
+    border:1px solid #ccc; 
+    font-size: 16px;
+    padding: 4px;
+}
+
+.containerLogin label{
+    color: #666;
+    margin-bottom: 4px; 
+}
+
+.button{
+    color:white !important;
+    border: none !important;
+    padding: 10px !important;
+    min-width: 100px !important;
+    border-radius: 4px !important;
+}
+.button:not(:disabled){
+    background: tomato ;
+}
+.button:not(:disabled):hover{
+    background: darkred;
+    cursor: pointer;
+}
+.navul{
+    list-style: none;
+    display: flex;
+}
+.navul li{
+    margin: 0 16px;    
+}
+.navul li a{
+    text-decoration: none;   
+}
+.navul li a:hover{
+    color: tomato;   
+}
+.headerWelcome{
+    padding: 58px;
+    color: tomato;
+}
+.myaccountContainer{
+    display: flex;
+    max-height: 100vh;
+    min-height: calc(100vh - 60px);
+    max-width: 100vw;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.inline{
+    display: flex
+}
+.inline .form-row{
+
+    min-width: 240px;
+}
+.address{
+    width: 98%;
+}
+.code{
+   min-width: unset !important;
+   width: 66px;
+   margin-right:8px;
+}
+.mobile{
+    flex-grow: 1;
+}
+.mobile > div{
+    width: 98%;
+
+}
+.loc{
+    margin-right: 8px;
+}
+
+.mt{
+    margin-top:8px
+}
+.datepicker{
+
+}
+
+.middle{
+    text-align: center
+}
+.tablecontainer{
+    width: 94% !important;
+    margin: 0 auto;
+}
+.toast{
+
+    position: fixed;
+    top: 48px;
+    left: 48px;
+    right: auto;
+    background: lightgreen;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 5px 6px 10px 0px #ddd;
+}
+.close
+{
+
+    float: right;
+}
+.cardRoot{
+    display: inline-block;
+    height: 424px;
+    margin: 10px;
+}
