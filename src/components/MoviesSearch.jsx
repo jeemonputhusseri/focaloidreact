@@ -82,6 +82,8 @@ class MoviesSearch extends Component {
             const newSelecteds = data.map((n) => n.imdbID);
             this.setState({
                 selected: newSelecteds
+            }, () => {
+                this.saveMovies()
             });
             return;
         }
