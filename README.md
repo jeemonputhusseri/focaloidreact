@@ -1,3 +1,24 @@
+Valid users list
+
+[
+   {
+      "username": "john@xyz.com",
+      "password": "john$XYZ",
+      "fullname": "John Doe"
+   },
+   {
+      "username": "jane@xyz.com",
+      "password": "jane$XYZ",
+      "fullname": "Jane Doe"
+   },
+   {
+      "username": "jannie@xyz.com",
+      "password": "jannie$XYZ",
+      "fullname": "Jannie Doe"
+   }
+]
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
