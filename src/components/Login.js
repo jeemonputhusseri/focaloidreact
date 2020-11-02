@@ -15,8 +15,8 @@ const signInSchema = Yup.object().shape({
 });
 
 const initialValues = {
-  username: "john@xyz.com",
-  password: "john$XYZ"
+  username: "",
+  password: ""
 };
 
 
